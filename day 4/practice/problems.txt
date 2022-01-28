@@ -1,0 +1,40 @@
+1.)
+What is the worst case time complexity of inserting n elements into an empty linked list, if the linked list needs to be maintained in sorted order? (multiple ans)
+    Θ(n2)                        Θ(n)                            Θ(nlogn)                      
+    Θ(1)
+
+Ans. Θ(nlogn), Θ(n2)   
+
+2.)
+In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is
+                 log n                         logn/2                              n                               logn-1
+Ans. n
+
+3.)
+A queue is implemented using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let n denote the number of nodes in the queue. Let  enqueue be implemented by inserting a new node at the head, and dequeue be implemented by deletion of a node from the tail. Which one of the following is the time complexity of the most time-efficient implementation of enqueue and dequeue, respectively, for this data structure?
+                 Θ(1),Θ(1)                   Θ(1),Θ(n)                     
+                 Θ(n),Θ(1)                   Θ(n),Θ(n)
+Ans. Θ(1),Θ(n)     
+
+4.)
+A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed efficiently. Which one of the following statements is CORRECT (n refers to the number of items in the queue)?
+  Both take O(1) time                           One takes O(1) time and another takes O(n) time
+  Both take O(n) time                           Both take Θ(n) time
+
+Ans. Both take O(1) time    
+
+5.)
+The result evaluating the postfix expression 10 5 + 60 6 / * 8 - is
+         142                 124                  284                  248
+
+Ans. 142
+
+6.)
+Suppose a stack implementation supports an instruction REVERSE, which reverses the order of elements on the stack, in addition to the PUSH and POP instructions. Which one of the following statements is TRUE with respect to this modified stack?
+a. A queue cannot be implemented using this stack.
+b. A queue can be implemented where ENQUEUE takes a single instruction and DEQUEUE takes a sequence of two instructions.
+c. A queue can be implemented where ENQUEUE takes a sequence of three instructions and DEQUEUE takes a single instruction.
+d. A queue can be implemented where both ENQUEUE and DEQUEUE take a single instruction each.
+
+Ans. (c)
+A queue can be implemented where ENQUEUE takes a sequence of three instructions and DEQUEUE takes a single instruction.
